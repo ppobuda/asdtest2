@@ -1,10 +1,10 @@
 import myFunc
 import unittest
 
-class TestMyFunc(unittest.TestCase):
+class testCases(unittest.TestCase):
 
-    def myTest(self):
-        self.assertEqual(myFunc(1,1),2)
+    def testMyFunc(self):
+        self.assertEqual(myFunc.myFunc(1,1),2)
 
 
 if __name__ == '__main__':
