@@ -1,7 +1,7 @@
 import myFunc
 import unittest
 
-class MyUnitTest(unittest.TestCase):
+class TestMyFunc(unittest.TestCase):
 
     def myTest(self):
         self.assertEqual(myFunc(1,1),2)
