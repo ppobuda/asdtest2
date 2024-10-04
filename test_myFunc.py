@@ -4,7 +4,7 @@ import unittest
 class MyUnitTest(unittest.TestCase()):
 
     def myTest(self):
-        self.assertEquals(myFunc(1,1),2)
+        self.assertEqual(myFunc(1,1),2)
 
 
 if __name__ == '__main__':
